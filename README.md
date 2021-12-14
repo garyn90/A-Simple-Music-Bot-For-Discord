@@ -100,4 +100,12 @@ If you wish to add non-music related commands of your own, try housing them with
  https://github.com/infinitepower18/heroku-buildpack-libopus.git
  
  **If the above criteria is met**
- 1)Inside your heroku app, navigate to the "Deploy" tab and follow all the instructions for "Deploy using heroku git". 
+ 
+ 1)Navigate to settings, and click "Reveal config vars". Add BOT_TOKEN as KEY, and simply copy-paste your token into the VALUE. Save that. 
+ 
+ 2)Then just underneath, click "add buildpack". First, click on "python" ("under officially supported buildpacks"). Once heroku/python appears, add the two buildpacks   links from earlier. Make sure the two links from above, and heroku/python are listed in your buildpacks. 
+ 
+ 3)Inside your heroku app, navigate to the "Deploy" tab and follow all the instructions for "Deploy using heroku git". This will involve using either your command       prompt or terminal. Be sure to follow those instructions to a T. Once that's done.
+ 4)Once the repo has been pushed onto your heroku app, navigate to the "Resources" tab and under "Dynos" you will see "Free Dynos" which requires you to edit first, and switch the button to on. Be sure to do that.
+ 
+ If everything was followed, your bot should come online and be able to start playing music for you! Enjoy.
