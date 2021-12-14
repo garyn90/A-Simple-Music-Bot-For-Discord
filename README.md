@@ -111,7 +111,8 @@ If you wish to add non-music related commands of your own, try housing them with
  
  2)Then just underneath, click "add buildpack". First, click on "python" ("under officially supported buildpacks"). Once heroku/python appears, add the two buildpacks   links from earlier. Make sure the two links from above, and heroku/python are listed in your buildpacks. 
  
- 3)Inside your heroku app, navigate to the "Deploy" tab and follow all the instructions for "Deploy using heroku git". This will involve using either your command       prompt or terminal. Be sure to follow those instructions to a T. Once that's done.
+ 3)Inside your heroku app, navigate to the "Deploy" tab and follow all the instructions for "Deploy using heroku git". This will involve using either your command       prompt or terminal. Be sure to follow those instructions to a T.
+ 
  4)Once the repo has been pushed onto your heroku app, navigate to the "Resources" tab and under "Dynos" you will see "Free Dynos" which requires you to edit first, and switch the button to on. Be sure to do that.
  
- If everything was followed, your bot should come online and be able to start playing music for you! Enjoy.
+ If you followed the instrcutions carefully, your bot should come online and be able to start playing music for you! Enjoy.
