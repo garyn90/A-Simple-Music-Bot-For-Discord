@@ -17,7 +17,6 @@ logger.addHandler(handler)
 #loading env variables from heroku
 
 TOKEN = os.getenv('BOT_TOKEN')
-SERVER = os.getenv('BOT_SERVER')
 
 #need intents explicitly enabled for updated discord api
 intents = discord.Intents.all()
