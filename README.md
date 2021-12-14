@@ -17,14 +17,10 @@ If you wish to have a personal music bot, yet don't know code or have no desire 
 1)First and foremost, be sure to install the latest version of python at https://www.python.org/downloads/.
 (Windows users: Be sure to allow it to add itself to the PATH). Once installed, navigate to your terminal or command prompt, and type "python3 -V". It will list the current version. 
 
-2)Next, install the dotenv module, by following the instructions here: https://pypi.org/project/python-dotenv/
-This is needed to separate your discord token from your main code, which is a good practice. 
-
 3)Then, install discord.py, by following the instructions here: https://discordpy.readthedocs.io/en/stable/intro.html. Be sure to follow the "Installing" tab very carefully, and install all those modules using pip.
 
-4)Next, you will need FFMPEG. You can download it here, and you can install it in this project's directory. https://www.ffmpeg.org/download.html
-
-5)You will also need to add FFMPEG to your PATH (if you are on Windows 10). Hit your Windows key, type "Edit system variables", then navigate to the Advanced Tab. Click the "Environment Variables" button.
+Optional: 4)If you wish to work on this in your local environment you will need FFMPEG. You can download it here, and you can install it wherever (just remember to add it to your PATH). https://www.ffmpeg.org/download.html
+You will also need to add FFMPEG to your PATH (if you are on Windows 10). Hit your Windows key, type "Edit system variables", then navigate to the Advanced Tab. Click the "Environment Variables" button.
 Under the "User variables for ..." click on Path, then "Edit". A new window should open up. Click "New" on that new window, and add the path to the FFMPEG \bin folder there. It should look something like: ..something\..something\FFMPEG\bin. 
 Hit "OK", then "OK", and you should have FFMPEG added to your PATH.
 
@@ -97,7 +93,7 @@ Like the other 2 files, messages.py can be customized, so you can have fun with 
 
 **Adding your own commands**
 
-If you wish to add commands of your own, try housing them within the otherCog.py file. otherCog.py was built specifically for this, to separate the music functionality from other functionality. It's highly recommended to read the documentation, since adding commands will require a primer of sorts. This bot was made with the discord.ext commands framework, but it's not difficult at all to add your own commands. Consult the discord.py documentation to learn how to get started: https://discordpy.readthedocs.io/en/latest/ext/commands/index.html
+If you wish to add non-music related commands of your own, try housing them within the otherCog.py file. otherCog.py was built specifically for this, to separate the music functionality from other functionality. It's highly recommended to read the documentation, since adding commands will require a primer of sorts. This bot was made with the discord.ext commands framework, but it's not extremely difficult at all to add your own commands. Consult the discord.py documentation to learn how to get started: https://discordpy.readthedocs.io/en/latest/ext/commands/index.html
 
 
   **How to host**
