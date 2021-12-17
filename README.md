@@ -58,7 +58,7 @@ Hit "OK", then "OK", and you should have FFMPEG added to your PATH.
 
 ## **Once you have your project set up in an editor (opening the whole folder in an editor is ideal)**
 
-###**Those who wish to change the prefix required for the command:**
+### **Those who wish to change the prefix required for the command:**
 
 Navigate to bot.py. On line 27 should be:
 
