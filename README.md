@@ -12,7 +12,7 @@ You can freely take this code and improve upon it to your own ends. This music b
 
 If you wish to have a personal music bot, yet don't know code or have no desire to, this bot should contain everything you need. Simply look into the /misc subdirectory, and you will find certain python files (namely: messages.py, wisdom.py, and helptext.py) that you can customize to your heart's content. Discord encourages customization and for each server to feel like a completely different place, so feel free changing the texts within. Just be mindful to not mess with the structure itself - just change everything on the right side of the colon. 
 
-## **Creating a bot with Discord**
+# **Creating a bot with Discord**
 
 2)It's assumed you already have a discord account and are the owner of a server.
   a)Sign into discord.com, and navigate over to here: https://discord.com/developers/docs/intro.
@@ -28,7 +28,7 @@ If you wish to have a personal music bot, yet don't know code or have no desire 
   
   e)This isn't mandatory, but remember to add a photo for your bot. Customizing this bot in tandem with whatever "character" you have in mind is ideal. For mine, it's   a beautiful little pug.
 
-## **Adding your bot to your server**  
+# **Adding your bot to your server**  
 
 1)Navigate to the "OAUTH2" tab. Check "bot" under "Scopes". 
 
@@ -42,7 +42,7 @@ When all steps are done, the bot should have joined your server. Now, onto the c
 
 **The following steps are best done with a code editor or IDE. Pick any which one you like, though I'd recommend Visual Studio Code.**
 
-## **Customizing Instructions**
+# **Customizing Instructions**
 If you wish to look at and tinker with the code yourself, a few requirements:
 **What you will need:**
 
@@ -56,7 +56,7 @@ You will also need to add FFMPEG to your PATH (if you are on Windows 10). Hit yo
 Under the "User variables for ..." click on Path, then "Edit". A new window should open up. Click "New" on that new window, and add the path to the FFMPEG \bin folder there. It should look something like: ..something\..something\FFMPEG\bin. 
 Hit "OK", then "OK", and you should have FFMPEG added to your PATH.
 
-## **Once you have your project set up in an editor (opening the whole folder in an editor is ideal)**
+### **Once you have your project set up in an editor (opening the whole folder in an editor is ideal)**
 
 ### **Those who wish to change the prefix required for the command:**
 
