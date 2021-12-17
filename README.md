@@ -58,7 +58,7 @@ Hit "OK", then "OK", and you should have FFMPEG added to your PATH.
 
 ### **Once you have your project set up in an editor (opening the whole folder in an editor is ideal)**
 
-### **Those who wish to change the prefix required for the command:**
+### **Changing the command prefix**
 
 Navigate to bot.py. On line 27 should be:
 
@@ -67,11 +67,11 @@ Navigate to bot.py. On line 27 should be:
 You can alter the prefix of the commands by changing the value inside the quotes of "command_prefix=' '" into whatever you desire. Be sure to consult the documentation here:
 https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=command%20prefix#discord.ext.commands.Bot.command_prefix
 
-### **Changing bot picture:**
+### **Changing the bot picture:**
 
 This can be done on the applications page of your discord bot.
 
-### **Changing responses**:
+### **Changing responses/error messages**:
 Inside /misc you will find three files: helpText.py, wisdom.py, and messages.py. 
 
 **helpText.py** is what houses all the text for the -help command, which comes stock with all bots made with discord.py. Changing the contents of those are entirely up to you. Just keep the "keys" of the dictionary intact, and simply change the strings. And mind the commas. Those are important. This data structure is called a dictionary. Please refer to the official Python documentation for an in-depth look.
