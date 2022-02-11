@@ -87,8 +87,6 @@ class MusicCog(commands.Cog, name='Music Commands'):
             
     # removes first song in queue, then plays the next one - with after param, we can be recursive
     # and if the queue ends, we just pass on exceptions
-    # removes first song in queue, then plays the next one - with after param, we can be recursive
-    # and if the queue ends, we just pass on exceptions
     def playNext(self, ctx):
         if 'playlist' in self.queue[0]:
             try:
