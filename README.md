@@ -52,10 +52,13 @@ If you wish to look at and tinker with the code yourself, a few requirements:
 
 3)Then, install discord.py, by following the instructions here: https://discordpy.readthedocs.io/en/stable/intro.html. Be sure to follow the "Installing" tab very carefully, and install all those modules using pip.
 
-Optional: 4)If you wish to work on this in your local environment you will need FFMPEG. You can download it here, and you can install it wherever (just remember to add it to your PATH). https://www.ffmpeg.org/download.html
-You will also need to add FFMPEG to your PATH (if you are on Windows 10). Hit your Windows key, type "Edit system variables", then navigate to the Advanced Tab. Click the "Environment Variables" button.
+Optional: 4)If you wish to work on this in your local environment you will need FFMPEG. You can download it here, and you can install it wherever (just remember to add it to your PATH). 
+
+https://www.ffmpeg.org/download.html
+
+**You will also need to add FFMPEG to your PATH (if you are on Windows 10). Hit your Windows key, type "Edit system variables", then navigate to the Advanced Tab. Click the "Environment Variables" button.
 Under the "User variables for ..." click on Path, then "Edit". A new window should open up. Click "New" on that new window, and add the path to the FFMPEG \bin folder there. It should look something like: ..something\..something\FFMPEG\bin. 
-Hit "OK", then "OK", and you should have FFMPEG added to your PATH.
+Hit "OK", then "OK", and you should have FFMPEG added to your PATH.**
 
 ### **Once you have your project set up in an editor (opening the whole folder in an editor is ideal)**
 
