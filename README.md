@@ -14,7 +14,8 @@ If you wish to have a personal music bot, yet don't know code or have no desire 
 
 # **Creating a bot with Discord**
 
-2)It's assumed you already have a discord account and are the owner of a server.
+  It's assumed you already have a discord account and are the owner of a server.
+  
   a)Sign into discord.com, and navigate over to here: https://discord.com/developers/docs/intro.
   Read that, and then head over to Applications, to create your bot.
   
