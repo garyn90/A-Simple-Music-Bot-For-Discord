@@ -1,5 +1,4 @@
-# discord.py-music-bot
-A simple music bot for Discord.
+# A simple music bot for Discord.
 
 
 This project was made using Python and the discord.py library. It's configured in a way for beginners or those with no coding knowledge to take this code and host it themselves. Those who wish to improve this bot are encouraged to do so - the intent is to provide the most basic (yet customizable) functionality. 
