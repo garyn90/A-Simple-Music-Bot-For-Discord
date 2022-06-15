@@ -17,7 +17,7 @@ def nowPlayingEmbed(ctx, entry):
                 embed.set_thumbnail(url=entry['songs'][0]['thumbnail'])
                 embed.add_field(name='Requested by:', value=ctx.author.display_name, inline=False)
                 embed.add_field(name='Duration:', value=str(datetime.timedelta(seconds=entry['songs'][0]['duration'])), inline=True)
-                embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+                embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
                 return embed
             # if not, continue as normal
             else:    
@@ -25,15 +25,15 @@ def nowPlayingEmbed(ctx, entry):
                 embed.set_thumbnail(url=entry['thumbnail'])
                 embed.add_field(name='Requested by:', value=ctx.author.display_name)
                 embed.add_field(name='Duration:', value=str(datetime.timedelta(seconds=entry['duration'])), inline=True)
-                embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+                embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
                 return embed
         else:
             embed = Embed(title='No song', color=Colour.purple())
-            embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+            embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
             return embed 
     except IndexError:
         embed = Embed(title='No song', color=Colour.purple())
-        embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+        embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
         return embed 
 
 
@@ -55,11 +55,11 @@ def queueEmbed(entry):
                 embed.add_field(name='Max reached', value='More in queue')
                 break
 
-        embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+        embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
         return embed
     else:
         embed = Embed(title='No queue', color=Colour.purple())
-        embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+        embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
         return embed 
 
 # an embed for skipped song
@@ -72,7 +72,7 @@ def skipEmbed(entry, ctx):
             embed.add_field(name='Skipped by:', value=ctx.author.display_name)        
             embed.add_field(name='Duration:', value=str(datetime.timedelta(seconds=entry[0]['songs'][0]['duration'])), inline=True)
             embed.set_thumbnail(url=entry[0]['songs'][0]['thumbnail'])
-            embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+            embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
             return embed
         else:
             embed = Embed(color=Colour.purple())
@@ -80,11 +80,11 @@ def skipEmbed(entry, ctx):
             embed.add_field(name='Skipped by:', value=ctx.author.display_name)        
             embed.add_field(name='Duration:', value=str(datetime.timedelta(seconds=entry[0]['duration'])), inline=True)
             embed.set_thumbnail(url=entry[0]['thumbnail'])
-            embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+            embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
             return embed 
     if not entry:
         embed = Embed(title='No entry', color=Colour.purple())
-        embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+        embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
         return embed
 
 def repeatEmbed(entry, ctx):
@@ -96,7 +96,7 @@ def repeatEmbed(entry, ctx):
             embed.add_field(name='Requested by:', value=ctx.author.display_name)
             embed.add_field(name='Duration:', value=str(datetime.timedelta(seconds=entry[0]['songs'][0]['duration'])), inline=True)
             embed.set_thumbnail(url=entry[0]['songs'][0]['thumbnail'])
-            embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+            embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
             return embed 
         else:
             embed = Embed(color=Colour.purple())
@@ -104,11 +104,11 @@ def repeatEmbed(entry, ctx):
             embed.add_field(name='Requested by:', value=ctx.author.display_name)
             embed.add_field(name='Duration:', value=str(datetime.timedelta(seconds=entry[0]['duration'])), inline=True)
             embed.set_thumbnail(url=entry[0]['thumbnail'])
-            embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+            embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
             return embed
     else:
         embed = Embed(title='No entry', color=Colour.purple())
-        embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+        embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
         return embed  
 
 def repeat3Embed(entry, ctx):
@@ -120,7 +120,7 @@ def repeat3Embed(entry, ctx):
             embed.add_field(name='Requested by:', value=ctx.author.display_name)
             embed.add_field(name='Duration:', value=str(datetime.timedelta(seconds=entry[0]['songs'][0]['duration'])), inline=True)
             embed.set_thumbnail(url=entry[0]['songs'][0]['thumbnail'])
-            embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+            embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
             return embed 
         else:
             embed = Embed(color=Colour.purple())
@@ -128,11 +128,11 @@ def repeat3Embed(entry, ctx):
             embed.add_field(name='Requested by:', value=ctx.author.display_name)
             embed.add_field(name='Duration:', value=str(datetime.timedelta(seconds=entry[0]['duration'])), inline=True)
             embed.set_thumbnail(url=entry[0]['thumbnail'])
-            embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+            embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
             return embed
     else:
         embed = Embed(title='No entry', color=Colour.purple())
-        embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+        embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
         return embed   
 
 def repeat5Embed(entry, ctx):
@@ -144,7 +144,7 @@ def repeat5Embed(entry, ctx):
             embed.add_field(name='Requested by:', value=ctx.author.display_name)
             embed.add_field(name='Duration:', value=str(datetime.timedelta(seconds=entry[0]['songs'][0]['duration'])), inline=True)
             embed.set_thumbnail(url=entry[0]['songs'][0]['thumbnail'])
-            embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+            embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
             return embed
         else:
             embed = Embed(color=Colour.purple())
@@ -152,9 +152,9 @@ def repeat5Embed(entry, ctx):
             embed.add_field(name='Requested by:', value=ctx.author.display_name)
             embed.add_field(name='Duration:', value=str(datetime.timedelta(seconds=entry[0]['duration'])), inline=True)
             embed.set_thumbnail(url=entry[0]['thumbnail'])
-            embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+            embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
             return embed
     else:
         embed = Embed(title='No entry', color=Colour.purple())
-        embed.set_footer(text='🎵 Brought to you by: Curt 🎵')
+        embed.set_footer(text='🎵 Brought to you by: Bot 🎵')
         return embed  
